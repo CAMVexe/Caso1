@@ -125,6 +125,7 @@ namespace Caso1
                 Console.WriteLine("\n 3. Buscar producto");
                 Console.WriteLine("\n 4. Mostrar productos de nuevo ReStock");
                 Console.WriteLine("\n 5. Salir");
+
                 Console.Write("\n Seleccione una opción: ");
                 string opcion = Console.ReadLine();
                 
