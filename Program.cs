@@ -176,6 +176,7 @@ namespace Caso1
                         {
                             Console.Write("\n Ingrese el código del producto a buscar: ");
                             string codSearch = Console.ReadLine();
+
                             var match = inventario.BuscarProducto(codSearch);
                             Console.WriteLine(match);
                         }
