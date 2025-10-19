@@ -114,22 +114,22 @@ namespace Caso1
     {
         static void Main()
         {
+            Inventario inventario = new Inventario();
+            string opcion;
             do
             {
-                Inventario inventario = new Inventario();
-
                 Console.WriteLine("Bienvenid@ al Sistema de Stock ElectroPlus");
                 Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>");
-                Console.WriteLine("\n 1. Agregar producto");
-                Console.WriteLine("\n 2. Listar productos");
-                Console.WriteLine("\n 3. Buscar producto");
-                Console.WriteLine("\n 4. Mostrar productos de nuevo ReStock");
-                Console.WriteLine("\n 5. Salir");
+                Console.WriteLine("1. Agregar producto");
+                Console.WriteLine("2. Listar productos");
+                Console.WriteLine("3. Buscar producto");
+                Console.WriteLine("4. Mostrar productos de nuevo ReStock");
+                Console.WriteLine("5. Salir");
 
-                Console.Write("\n Seleccione una opción: ");
-                string opcion = Console.ReadLine();
-                
-                switch(opcion)
+                Console.Write("\n Seleccione una opción: "); 
+                opcion = Console.ReadLine();
+
+                switch (opcion)
                 {
                     case "1":
                         try
@@ -200,7 +200,7 @@ namespace Caso1
                         break;
                 }
             }
-            while (true);
+            while (opcion != "5");
         }
     }
 }
