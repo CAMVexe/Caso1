@@ -119,7 +119,7 @@ namespace Caso1
             do
             {
                 Console.WriteLine("Bienvenid@ al Sistema de Stock ElectroPlus");
-                Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>");
+                Console.WriteLine("<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                 Console.WriteLine("1. Agregar producto");
                 Console.WriteLine("2. Listar productos");
                 Console.WriteLine("3. Buscar producto");
